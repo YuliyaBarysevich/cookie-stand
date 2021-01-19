@@ -1,0 +1,58 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  
+}
+
+
+body {
+  background: radial-gradient(#BDBCBC, #2F2D2D)
+
+}
+  
+
+
+header img{
+  width: 100%;
+}
+
+.nav {
+  padding: 30px;
+  text-align: center;
+  
+  
+}
+
+.nav li {
+  display: inline-block;
+  margin: 35px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: 'Arapey';
+}
+
+
+li {
+font-size: small;
+padding: 5px;;
+font-size: 18px;
+}
+
+
+ h2{
+  font-size: 25px;
+  margin: 10px;
+}
+
+section{
+  float: left;
+  width: 230px;
+  margin: 5px;
+  padding: 5px;
+  margin-left: 25px;
+}
