@@ -31,6 +31,31 @@ var tokyo = new Store('Tokyo', 3, 24, 1.2, [], 0);
 var dubai = new Store('Dubai', 11, 38, 3.7, [], 0);
 var paris = new Store ('Paris', 20, 38, 2.3, [], 0)
 var lima = new Store('Lima', 2, 16, 4.6, [], 0)
+seattle.generateCookiesPerHour();
+tokyo.generateCookiesPerHour();
+dubai.generateCookiesPerHour();
+paris.generateCookiesPerHour();
+lima.generateCookiesPerHour();
+
+function createHeaderRow(arr){
+  var sectionElement = document.getElementById('table-data')
+
+  var tableElement = document.createElement('table')
+
+  sectionElement.appendChild(tableElement)
+
+  var trElement = document.createElement('tr')
+
+  tableElement.appendChild(trElement)
+
+  for (var i = 0; i < arr.length; i++){
+    var thElement = document.createElement('th');
+    thElement.textContent = arr[i];
+    trElement.appendChild(thElement)
+  }
+}
+
+createHeaderRow(hoursOfOperation)
 
 
 
