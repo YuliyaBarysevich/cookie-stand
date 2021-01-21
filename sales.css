@@ -5,18 +5,13 @@
   border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-  
+	vertical-align: baseline; 
 }
-
 
 body {
-  background: radial-gradient(#BDBCBC, #2F2D2D)
-
+  background: radial-gradient(#BDBCBC, #2F2D2D);
 }
   
-
-
 header img{
   width: 100%;
 }
@@ -24,8 +19,6 @@ header img{
 .nav {
   padding: 30px;
   text-align: center;
-  
-  
 }
 
 .nav li {
@@ -35,7 +28,6 @@ header img{
   text-decoration: underline;
   font-family: 'Arapey';
 }
-
 
 li {
 font-size: small;
@@ -53,7 +45,6 @@ font-size: 18px;
   left: 290px;
 }
 
-
  h2{
   font-size: 25px;
   margin: 10px;
@@ -63,16 +54,17 @@ a{
   color: white;
 }
 
-
-
+/* section{
+  width: 900px;
+} */
 
 table {
+  width: 700px;
   text-align: center;
   margin: 200px auto 20px auto;
   border: 2px black solid;
   border-collapse: collapse;
 }
-
 
 th {
   border: 2px solid rgba(0, 0, 0, .5);
@@ -80,8 +72,7 @@ th {
   color: aliceblue;
   letter-spacing: 1px;
   background-color:  #2F2D2D;
-  font-family: Arial, Helvetica, sans-serif;
-  
+  font-family: Arial, Helvetica, sans-serif; 
 } 
 
 td {
@@ -91,4 +82,18 @@ td {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #BDBCBC;
+}
+
+footer{
+  margin-top: 50px;
+  background-color: #2F2D2D;
+}
+.fotter-nav li {
+  display: inline-block;
+  margin: 35px;
+  font-size: 25px;
+  color: #BDBCBC;
+}
+.fotter-nav{
+  text-align: center;
 }

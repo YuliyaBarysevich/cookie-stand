@@ -18,24 +18,17 @@
   
 }
 
-
-
-
-
 header img{
-  width: 100%;
-  
+  width: 100%; 
 }
 
 body {
   background: radial-gradient(#BDBCBC, #2F2D2D);
-  
 }
+
 .nav {
   padding: 30px;
   text-align: center;
-  
-  
 }
 
 .nav li {
@@ -56,8 +49,6 @@ body {
   left: 290px;
 }
 
-
-
 h2 {
   text-align: center;
   font-size: 55px;
@@ -65,7 +56,6 @@ h2 {
   margin-bottom: 60px;
   text-decoration: underline;
   font-family: 'Patrick Hand';
-
 }
 
 p {
@@ -75,15 +65,13 @@ p {
   padding-top: 30px;
   margin-top: 30px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  
+  font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
 section{
   margin-top: 100px;
   padding: 30px;
   margin-bottom: 50px;
-  
 }
 
 figure{
@@ -92,12 +80,16 @@ figure{
   width: 60%;
   display: block;
   margin: auto;
-  
 }
 
 figure p {
   font-family: 'Patrick Hand';
   font-size: 25px;
+}
+
+span {
+  font-size: 45px;
+  text-decoration: underline;
 }
 
 footer{
