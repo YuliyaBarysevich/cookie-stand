@@ -93,6 +93,8 @@ function createHeaderRow(arr){
 };
 createHeaderRow(hoursOfOperation);
 
+
+
 seattle.generateCustomersPerHour();
 seattle.generateCookiesPerHour();
 seattle.displayAllCookies();
