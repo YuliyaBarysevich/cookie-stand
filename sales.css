@@ -61,7 +61,7 @@ a{
 table {
   width: 700px;
   text-align: center;
-  margin: 200px auto 20px auto;
+  margin: 200px auto 40px auto;
   border: 2px black solid;
   border-collapse: collapse;
 }
@@ -82,6 +82,57 @@ td {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #BDBCBC;
+}
+
+form {
+  width: 700px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+fieldset{
+  text-align: center;
+  width: 300px;
+  margin: 10px auto;
+  font-size: 23px;
+  font-weight: bold;
+}
+input {
+  display: block;
+  padding: 5px 5px 5px 30px;
+  width: 250px;
+  height: 30px;
+  background-color: #BDBCBC;
+  border-radius: 12px;
+  border: 2px solid #2F2D2D;
+  margin-bottom: 20px;
+  font-size: 13px;
+  
+}
+
+input:focus, input:hover{
+  background-color: #eceaeac4;
+  border: 3px solid #2F2D2D;
+}
+
+input['Location']{
+  font-s
+}
+
+button{
+  background-color: #2F2D2D;
+  color: #BDBCBC;
+  width: 150px;
+  height: 50px;
+  border: 2px solid #BDBCBC;
+  border-radius: 12px;
+  box-shadow: 2px 2px #bdbcbc70;
+  
+}
+
+button:hover{
+  width: 155px;
+  height:55px;
 }
 
 footer{
