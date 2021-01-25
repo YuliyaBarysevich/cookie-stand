@@ -1,57 +1,37 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline; 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #031f2b;
 }
 
 body {
-  background: radial-gradient(#BDBCBC, #2F2D2D);
-}
-  
-header img{
-  width: 100%;
+  background-color: #274259;
 }
 
 .nav {
   padding: 30px;
-  text-align: center;
 }
 
 .nav li {
   display: inline-block;
-  margin: 35px;
-  font-size: 30px;
+  margin: 15px;
+  font-size: 20px;
   text-decoration: underline;
   font-family: 'Arapey';
-}
-
-li {
-font-size: small;
-padding: 5px;;
-font-size: 18px;
-}
-
-#line {
-  text-align: center;
-  width: 60%;
-  display: block;
-  margin: auto;
-  position: absolute;
-  top: 700px;
-  left: 290px;
+  color: #BDBCBC;
 }
 
  h2{
-  font-size: 25px;
-  margin: 10px;
+  font-size: 45px;
+  margin-top: 30px;
+  text-align: center;
+  color: #dfdcdb;
 }
 
 a{
-  color: white;
+  color: #dfdcdb;
 }
 
 /* section{
@@ -61,7 +41,7 @@ a{
 table {
   width: 700px;
   text-align: center;
-  margin: 200px auto 40px auto;
+  margin: 70px auto 40px auto;
   border: 2px black solid;
   border-collapse: collapse;
 }
@@ -69,9 +49,9 @@ table {
 th {
   border: 2px solid rgba(0, 0, 0, .5);
   padding: 20px 10px;
-  color: aliceblue;
+  color: #dfdcdb;
   letter-spacing: 1px;
-  background-color:  #2F2D2D;
+  background-color: #031f2b;
   font-family: Arial, Helvetica, sans-serif; 
 } 
 
@@ -81,7 +61,8 @@ td {
   padding: 5px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #BDBCBC;
+  background-color: #f3f0f0;
+  color: rgba(0, 0, 0, 0.74);
 }
 
 form {
@@ -102,31 +83,29 @@ input {
   padding: 5px 5px 5px 30px;
   width: 250px;
   height: 30px;
-  background-color: #BDBCBC;
+  background-color: #f3f0f0;
   border-radius: 12px;
-  border: 2px solid #2F2D2D;
+  border: 3px solid  #031f2b;
   margin-bottom: 20px;
   font-size: 13px;
   
 }
 
 input:focus, input:hover{
-  background-color: #eceaeac4;
-  border: 3px solid #2F2D2D;
+  background-color: #8ca4b9;
+  border: 3px solid #031f2b;
 }
 
-input['Location']{
-  font-s
-}
+
 
 button{
-  background-color: #2F2D2D;
+  background-color: #031f2b;
   color: #BDBCBC;
   width: 150px;
   height: 50px;
   border: 2px solid #BDBCBC;
   border-radius: 12px;
-  box-shadow: 2px 2px #bdbcbc70;
+  box-shadow: 2px 2px  #031f2b77;
   
 }
 
@@ -136,15 +115,9 @@ button:hover{
 }
 
 footer{
-  margin-top: 50px;
-  background-color: #2F2D2D;
-}
-.fotter-nav li {
-  display: inline-block;
-  margin: 35px;
-  font-size: 25px;
-  color: #BDBCBC;
-}
-.fotter-nav{
+  height: 80px;
+  margin-top: 30px;
+  background-color: #031f2b;
   text-align: center;
+  padding-top: 10px;
 }

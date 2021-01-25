@@ -147,6 +147,8 @@ createHeaderRow(hoursOfOperation);
 var formElement = document.getElementById("new-store")
 
   formElement.addEventListener('submit', function (event) {
+  tableFooter.innerHTML = '';
+
   event.preventDefault();
   console.log (event.target.shopLocation.value)
 
@@ -164,9 +166,8 @@ var formElement = document.getElementById("new-store")
   
   newStore.generateCookiesPerHour();
   newStore.displayAllCookies();
-  //dont work properly 
-  // createFooterRow()
-  // footerRow.parentNode.removeChild(footerRow);
+  
+  createFooterRow()
 
 })
 
