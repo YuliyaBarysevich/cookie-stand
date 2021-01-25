@@ -8,6 +8,7 @@ header {
 
 body {
   background-color: #274259;
+  height: 100vh;
 }
 
 .nav {
@@ -120,4 +121,10 @@ footer{
   background-color: #031f2b;
   text-align: center;
   padding-top: 10px;
+}
+
+footer p {
+  color: #dfdcdb;
+  font-size: 18px;
+  padding-top: 48px;
 }

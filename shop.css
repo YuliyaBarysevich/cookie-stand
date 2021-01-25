@@ -21,6 +21,7 @@ header {
 
 body {
   background-color: #274259;
+  height: 100vh;
 }
 
 .nav {

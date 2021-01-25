@@ -20,6 +20,7 @@ header {
 
 body {
   background-color: #274259;
+  height: 100vh;
 }
 
 .nav {
@@ -53,10 +54,6 @@ div {
   margin-bottom: 90px;
 }
 
-/* section {
-  margin-bottom: 20px;
-  margin-top: 40px;
-} */
 
 section img{
   width: 200px;
