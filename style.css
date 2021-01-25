@@ -9,11 +9,6 @@
 
 
 
-/* body {
-  width: 1000px;
-
-} */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -22,6 +17,7 @@ header {
 
 body {
   background-color: #274259;
+  height: 100vh;
 }
 
 .nav {
