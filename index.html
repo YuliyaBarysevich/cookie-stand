@@ -2,44 +2,56 @@
 <html>
   <head>
     <title>Pat's Salmon Cookies</title>
+    <link rel ="stylesheet" href = "reset.css">
     <link rel="stylesheet" href = "style.css">
+    
   </head>
 
   <body>
     <header>
-      <img src = "images/logo.png" >
+      <img src = "images/Pat's Salmon Cookies Logo.png" >
       <nav>
         <ul class = 'nav'>
           <li>Home</li>
           <li>Contact</li>
-          <li><a href=location.html>Location</a></li>
-          <li><a href=shop.html>Shop</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li> <a href = "sales.html">Sales Data</a></li>
         </ul>
-        <img id = "line" src = "images/line-png-16811.png">
       </nav>
     </header>
     <main>
-      <section>
-        <h2>About Salmon Cookies</h2>
-        <p>Our cookies made into the shape of a salmon that has just a hint of fishy goodness.<br /></br />
-         At Pat's Salmon Cookies, we believe when it comes to baking, simpler is better. We produce nothing but the best cookies. We bake all of our treats to order from scratch using only the finest, high-quality ingredients, with a focus on great taste. Using rich, decadent ingredients like organic butter, organic eggs & flour, we create an experience like no other.<br /> </br> We pride ourselves in crafting the most scrumptious, home-styled treats that cannot be found anywhere else. Whether you’re giving a corporate gift of cookies, a special treat for a loved one, or an afternoon delicacy for yourself, Pat's Salmon Cookies will always excite your palate with fine ingredients, pure flavor, and alluring appearance.</p>
+      <section class = "shop-location">
+        <div>
+          <img src = "images/cookies shop.jpg">
+        </div>
+        <div>
+          <h2>Pat's Salmon Cookies</h2>
+          <p>We are proud to be selling snacks that are chemical and artificial ingredients free and to be introducing non-traditional delicious flavor such as <span>Salmon</span>.<br> <button><a href = "#about">Learn More</a></button></p>
+        </div>
       </section>
-      <figure>
-        <img id = 'salmon' src = "images/salmon.png">
-        <p>Pat's Salmon Cookies is proud to be selling snacks that are chemical and artificial ingredients free and to be introducing non-traditional delicious flavor such as <span>Salmon</span>.</p>
-
-      </figure>
+      <h3 id = "about">About Salmon Cookies</h3>
+      <section class = "about"> 
+          <p>Our cookies made into the shape of a salmon that has just a hint of fishy goodness.<br /></br />
+         At Pat's Salmon Cookies, we believe when it comes to baking, simpler is better. We produce nothing but the best cookies. We bake all of our treats to order from scratch using only the finest, high-quality ingredients, with a focus on great taste. Using rich, decadent ingredients like organic butter, organic eggs & flour, we create an experience like no other.<br /> </br> We pride ourselves in crafting the most scrumptious, home-styled treats that cannot be found anywhere else. Whether you’re giving a corporate gift of cookies, a special treat for a loved one, or an afternoon delicacy for yourself, Pat's Salmon Cookies will always excite your palate with fine ingredients, pure flavor, and alluring appearance.</p>
+         
+        <figure>
+          <img id = 'salmon' src = "images/salmon.png">
+        </figure>
+        
+      </section>
+  
 
       <footer class = 'fotter-nav'>
-        <ul>
-          <li>Contact</li>
-          <li>FAQ</li>
-          <li><a href=location.html>Location</a></li>
-         <li> <a href = 'sales.html'>Sales Data</a></li>
-        </ul>
+        <h4>Subscribe Form</h4>
+        <form>
 
+          <input type = "text" name = "email" value = "Email address"/> <br>
+          <input type = "submit" name = "submit" value = "Submit"/>
+          <p>Thanks for submitting!</p>
+        </form>
+        <p>&#169 2021 by Pat's Salmon Cookies &#183 Proudly created by Yuliya Barysevich</p>
       </footer>
-
     </main>
 
   </body>

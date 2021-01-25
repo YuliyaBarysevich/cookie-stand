@@ -7,44 +7,33 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline; 
-}
+
 
 a{
   color:#ece4e4;
 }
 
-body {
-  background: radial-gradient(#BDBCBC, #2F2D2D);
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #031f2b;
 }
-  
-header img{
-  width: 100%;
+
+body {
+  background-color: #274259;
 }
 
 .nav {
   padding: 30px;
-  text-align: center;
 }
 
 .nav li {
   display: inline-block;
-  margin: 35px;
-  font-size: 30px;
+  margin: 15px;
+  font-size: 20px;
   text-decoration: underline;
   font-family: 'Arapey';
-}
-
-li {
-font-size: small;
-padding: 5px;
-font-size: 18px;
+  color: #dfdcdb;
 }
 
 h2 {
@@ -55,19 +44,10 @@ h2 {
   text-decoration: underline;
   font-family: 'Patrick Hand';
   text-transform: uppercase;
+  color: #dfdcdb;
 }
 
-/* div {
-  margin: auto;
-  width: 80%;
-  padding: 40px;
-}
 
-div img {
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-} */
 div {
   width: 800px;
   margin: 10px auto;
@@ -83,49 +63,68 @@ div {
 .container img {
   width: 300px;
   height: 300px;
-  margin: auto;
-  padding: 30px;
+  margin: 30px 30px 0 30px;
+  border-radius: 12px;
+  border: 2px solid #031f2b;
 }
 
 .button {
   text-align: center;
-  /* padding-right: 30px; */
   display: flex;
-  width: 600px;
 }
 
 
 button{
   padding: 10px 30px;
   border-radius: 12px;
-  background-color: #BDBCBC;
-  color: #2F2D2D;
+  background-color:#031f2b;
+  color: #F2E4D8;
   font-family: 'Patrick Hand';
   font-size: 20px;
   letter-spacing: 0.1em;
   font-weight: bold;
-  justify-content: space-evenly;
   margin: auto;
  
 }
 
 button:hover{
-  background-color: #2F2D2D;
-  color: #BDBCBC;
+  background-color: #BFBBBA;
+  color: #031f2b;
 }
 
 footer{
+  height: 230px;
   margin-top: 50px;
-  background-color: #2F2D2D;
-}
-.fotter-nav li {
-  display: inline-block;
-  margin: 35px;
-  font-size: 25px;
-  color: #BDBCBC;
-}
-.fotter-nav{
+  background-color: #031f2b;
   text-align: center;
+  padding-top: 50px;
+}
+
+h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #dfdcdb;
+}
+form {
+margin-bottom: 40px;
+}
+
+input {
+  width: 270px;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid  #031f2b;
+}
+
+form p {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #dfdcdb;
+}
+
+footer p {
+  color: #dfdcdb;
+  font-size: 18px;
 }
 
 

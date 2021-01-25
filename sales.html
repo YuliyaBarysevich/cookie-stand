@@ -2,73 +2,70 @@
 <html>
   <head>
     <title>Pat's Salmon Cookies</title>
+    <link rel ="stylesheet" href = "reset.css">
     <link rel="stylesheet" href = "sales.css">
   </head>
   
   <body>
     <header>
-      <img src = "images/logo.png" >
+      <img src = "images/Pat's Salmon Cookies Logo.png" >
       <nav>
         <ul class = 'nav'>
-          <li><a href = 'index.html'>Home</a></li>
+          <li><a href = "index.html">Home</a></li>
           <li>Contact</li>
           <li><a href=location.html>Location</a></li>
           <li><a href=shop.html>Shop</a></li>
+          <li> <a href = 'sales.html'>Sales Data</a></li>
         </ul>
-        <img id = "line" src = "images/line-png-16811.png">
       </nav>
     </header>
-
-    <section id = "table-data">
-      <table id="table">
-        <thead id = "table-head">
-
-        </thead>
-        <tbody id ="table-body" >
+    <main>
+      <h2>Sales Data</h2>
+      <section id = "table-data">
+        <table id="table">
+          <thead id = "table-head">
   
-        </tbody>
-        <tfoot id = "table-footer">
-  
-        </tfoot>
-      </table>
-      
-
-    </section>
-
-    <form id = "new-store">
-      <fieldset>
-  
-        <label>
-          <p>Add a New Store Location</p>
-          <input type = "text" name = "shopLocation" placeholder="Location">
-        </label>
-        <label>
-         <p>Minimum Customers</p>
-          <input type = "text" name = "minCust" placeholder= "Minimum number of customers">
-        </label>
-        <lable>
-         <p>Maximum Customers</p>
-          <input type = "text" name = "maxCust" placeholder= "Minimum number of customers">
-        </lable>
-        <label>
-          <p>Average Cookies</p>
-          <input type = "text" name = "avgCookie" placeholder= "Average number of cookies per customer">
-        </label>
-      </fieldset>
-
-      <button type="submit">Submit Form</button>
-    </form>
+          </thead>
+          <tbody id ="table-body" >
     
+          </tbody>
+          <tfoot id = "table-footer">
+    
+          </tfoot>
+        </table>
+      </section>
+      <section>
+        <form id = "new-store">
+          <fieldset>
+      
+            <label>
+              <p>Add a New Store Location</p>
+              <input type = "text" name = "shopLocation" placeholder="Location">
+            </label>
+            <label>
+             <p>Minimum Customers</p>
+              <input type = "text" name = "minCust" placeholder= "Minimum number of customers">
+            </label>
+            <lable>
+             <p>Maximum Customers</p>
+              <input type = "text" name = "maxCust" placeholder= "Minimum number of customers">
+            </lable>
+            <label>
+              <p>Average Cookies</p>
+              <input type = "text" name = "avgCookie" placeholder= "Average number of cookies per customer">
+            </label>
+          </fieldset>
+    
+          <button type="submit">Submit Form</button>
+        </form>
+      </section>
+    </main>
+
     <footer class = 'fotter-nav'>
-      <ul>
-        <li>Contact</li>
-        <li>FAQ</li>
-        <li><a href=location.html>Location</a></li>
-       <li> <a href = 'sales.html'>Sales Data</a></li>
-      </ul>
+      
+      <p>&#169 2021 by Pat's Salmon Cookies &#183 Proudly created by Yuliya Barysevich</p>
 
     </footer>
-
 
    <script src = 'script.js'></script>
   </body>

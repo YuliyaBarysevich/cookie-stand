@@ -7,44 +7,32 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline; 
-}
 
 a{
   color: #ece4e4;
 }
 
-body {
-  background: radial-gradient(#BDBCBC, #2F2D2D);
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #031f2b;
 }
-  
-header img{
-  width: 100%;
+
+body {
+  background-color: #274259;
 }
 
 .nav {
   padding: 30px;
-  text-align: center;
 }
 
 .nav li {
   display: inline-block;
-  margin: 35px;
-  font-size: 30px;
+  margin: 15px;
+  font-size: 20px;
   text-decoration: underline;
   font-family: 'Arapey';
-}
-
-li {
-font-size: small;
-padding: 5px;;
-font-size: 18px;
+  color: #dfdcdb;
 }
 
 h2 {
@@ -55,20 +43,20 @@ h2 {
   text-decoration: underline;
   font-family: 'Patrick Hand';
   text-transform: uppercase;
+  color: #dfdcdb;
 }
 
 
-/* section{
-  float: left;
-  width: 350px;
-  height: 
-  margin: 250px auto 5px auto;
-} */
+div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
 
-section {
+/* section {
   margin-bottom: 20px;
   margin-top: 40px;
-}
+} */
 
 section img{
   width: 200px;
@@ -83,24 +71,49 @@ h3{
   font-size: 35px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 15px;
   font-family: 'Patrick Hand';
+  color: #dfdcdb;
+  font-weight: bold;
 }
 
 p{
   text-align: center;
   font-size: 20px;
+  color: #dfdcdb;
+  padding-bottom: 10px;
 }
 
 footer{
+  height: 240px;
   margin-top: 50px;
-  background-color: #2F2D2D;
-}
-.fotter-nav li {
-  display: inline-block;
-  margin: 35px;
-  font-size: 25px;
-  color: #BDBCBC;
-}
-.fotter-nav{
+  background-color: #031f2b;
   text-align: center;
+  padding-top: 50px;
+}
+
+h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #dfdcdb;
+}
+form {
+margin-bottom: 40px;
+}
+
+input {
+  width: 270px;
+  height: 30px;
+  margin-top: 10px;
+  border: 1px solid  #031f2b;
+}
+
+form p {
+  font-size: 22px;
+  margin-top: 20px;
+  color: #dfdcdb;
+}
+footer p {
+  color: #dfdcdb;
+  font-size: 18px;
 }
